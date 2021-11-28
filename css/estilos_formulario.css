@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+form{
+	background:none;
+	padding: 10px ;
+	box-shadow: lightgray;
+	border-radius: 10px;
+}
+
+.form{
+	width: 100%;
+	margin: auto;
+}
+
+form .grupo{
+	position: relative;
+	margin: 45px; 
+}
+
+input{
+	background: rgb(223, 223, 223);
+	color: #075473;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid var(--colorTextos);
+}
+
+button{
+	background-color: #075473;
+	border: none;
+	display: block;
+	width: 100px;
+	margin: 10px auto;
+	height: 40px;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+alertas{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	color: red;
+	padding-top: 20px;
+}
+
+
